@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --sidebar-width: 248px;
+  --sidebar-width-collapsed: 76px;
+  --navbar-height: 64px;
+
+  --color-sidebar-bg: #111827;
+  --color-sidebar-text: #9ca3af;
+  --color-sidebar-text-active: #ffffff;
+  --color-sidebar-active-bg: #1f2937;
+  --color-sidebar-border: #1f2937;
+
+  --color-navbar-bg: #ffffff;
+  --color-navbar-border: #e5e7eb;
+
+  --color-content-bg: #f4f5f7;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+
+  --color-accent: #4f46e5;
+  --color-accent-soft: #eef2ff;
+  --color-danger: #ef4444;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  color: var(--color-text-primary);
+  background: var(--color-content-bg);
+  -webkit-font-smoothing: antialiased;
+}
